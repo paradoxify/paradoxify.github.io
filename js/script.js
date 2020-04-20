@@ -20,12 +20,12 @@ $(document).ready(function () {
 
     $('#slides').superslides({
         animation: 'fade',
-        play: 2500,
+        play: 1500,
         pagination: false
     });
 
     var typed = new Typed(".typed", {
-        strings: ["Android Developer", "Kernel Developer", "Student"],
+        strings: ["Coder", "Trader", "Content writer", "Student"],
         typeSpeed: 50,
         loop: true,
         startDelay: 400,
@@ -110,6 +110,3 @@ $(document).ready(function () {
 
 });
 
-document.querySelector('#blog-link').addEventListener('click', () => {
-    window.location = 'https://www.vipuljha.com/blog';
-})
