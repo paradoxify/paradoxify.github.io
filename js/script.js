@@ -20,15 +20,15 @@ $(document).ready(function () {
 
     $('#slides').superslides({
         animation: 'fade',
-        play: 1500,
+        play: 2000,
         pagination: false
     });
 
     var typed = new Typed(".typed", {
         strings: ["Coder", "Trader", "Content writer", "Student"],
-        typeSpeed: 50,
+        typeSpeed: 200,
         loop: true,
-        startDelay: 400,
+        startDelay: 300,
         showCursor: false
 
     });
